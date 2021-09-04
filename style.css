@@ -1,0 +1,16 @@
+body {
+  margin: 20px;
+}
+
+div.info > ul {
+  padding-left: 30px;
+  margin: 0;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
