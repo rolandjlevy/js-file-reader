@@ -2,15 +2,38 @@ body {
   margin: 20px;
 }
 
+input[type="file"] {
+  background: #f6f6f6;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+input[type="file"]:hover {
+  background: #eee;
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 4px 8px;
+}
+
+fieldset {
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
 div.info > ul {
-  padding-left: 30px;
+  padding-left: 15px;
   margin: 0;
+}
+
+pre.data {
+  margin: 0;
+  max-height: 400px;
+  overflow: auto;
 }
 
 .btn {
   cursor: pointer;
-}
-
-.m-b-10 {
-  margin-bottom: 10px;
 }

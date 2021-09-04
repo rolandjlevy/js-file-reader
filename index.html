@@ -8,22 +8,23 @@
   </head>
   <body>
     <main>
+
     <h2>Read and display local file</h2>
 
-    <section>
-      <input type="file" accept="text/plain, text/html, .json" class="btn" />
-      <button class="btn">Show contents</button>
-    </section>
+      <section>
+        <input type="file" accept="text/plain, text/html, .json, .js, .css, .md .php" class="btn" />
+        <button class="btn">Show file data</button>
+      </section>
 
-    <section>
-      <h4 class="m-b-10">File info</h4>
-      <div class="info"></div>
-    </section>
+      <fieldset>
+        <legend>File info</legend>
+        <div class="info"></div>
+      </fieldset>
 
-    <section>
-      <h4 class="m-b-10">File data</h4>
-      <pre class="data"></pre>
-    </section>
+      <fieldset>
+        <legend>File data</legend>
+        <pre class="data"></pre>
+      </fieldset>
 
     </main>
 

@@ -36,10 +36,10 @@ const getFileInfo = (data) => {
   const kb = (size / 1000).toFixed(2)
   $('div.info').innerHTML = `
     <ul>
-      <li>Name: ${name}</li>
-      <li>Type: ${type}</li>
-      <li>Size: ${kb}kb</li>
-      <li>Last modified: ${lastModifiedDate}</li>
+      <li><u>Name</u>: ${name}</li>
+      <li><u>Type</u>: ${type}</li>
+      <li><u>Size:</u> ${kb}kb</li>
+      <li><u>Modified</u>: ${lastModifiedDate}</li>
     </ul>
   `;
 }
